@@ -9,13 +9,13 @@ import Foundation
 
 // MARK: - ContestList
 
-struct ContestList: Decodable {
-    let result: [Result]
+struct Response: Decodable {
+    let result: [Contest]
 }
 
-// MARK: - Result
+// MARK: - Contest
 
-struct Result: Decodable {
+struct Contest: Decodable {
     let id: Int
     let name: String
     let type: TypeEnum
