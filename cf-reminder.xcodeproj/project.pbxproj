@@ -57,6 +57,13 @@
 			path = Endpoint;
 			sourceTree = "<group>";
 		};
+		CEB5A690291317A100950F2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CEBBABFF2907199100B3247E = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +83,7 @@
 		CEBBAC0A2907199100B3247E /* cf-reminder */ = {
 			isa = PBXGroup;
 			children = (
+				CEB5A690291317A100950F2E /* Model */,
 				CEBBAC2D29072DC600B3247E /* Networking */,
 				CEBBAC20290719A500B3247E /* ViewControllers */,
 				CEBBAC1F2907199700B3247E /* App */,
