@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEB5A68F291311DF00950F2E /* CodeforcesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A68E291311DF00950F2E /* CodeforcesEndpoint.swift */; };
+		CEB5A6922913195900950F2E /* ContestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A6912913195900950F2E /* ContestList.swift */; };
 		CEBBAC0C2907199100B3247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0B2907199100B3247E /* AppDelegate.swift */; };
 		CEBBAC0E2907199100B3247E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0D2907199100B3247E /* SceneDelegate.swift */; };
 		CEBBAC102907199100B3247E /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0F2907199100B3247E /* ContestViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CEB5A68E291311DF00950F2E /* CodeforcesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeforcesEndpoint.swift; sourceTree = "<group>"; };
+		CEB5A6912913195900950F2E /* ContestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestList.swift; sourceTree = "<group>"; };
 		CEBBAC082907199100B3247E /* cf-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cf-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBBAC0B2907199100B3247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBBAC0D2907199100B3247E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		CEB5A690291317A100950F2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEB5A6912913195900950F2E /* ContestList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				CEE693C7290885F100AA8B08 /* Router.swift in Sources */,
 				CEBBAC102907199100B3247E /* ContestViewController.swift in Sources */,
 				CEBBAC0C2907199100B3247E /* AppDelegate.swift in Sources */,
+				CEB5A6922913195900950F2E /* ContestList.swift in Sources */,
 				CEBBAC3329072DC600B3247E /* HTTPMethod.swift in Sources */,
 				CEBBAC0E2907199100B3247E /* SceneDelegate.swift in Sources */,
 			);
