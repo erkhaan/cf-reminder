@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB5A68F291311DF00950F2E /* CodeforcesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A68E291311DF00950F2E /* CodeforcesEndpoint.swift */; };
 		CEBBAC0C2907199100B3247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0B2907199100B3247E /* AppDelegate.swift */; };
 		CEBBAC0E2907199100B3247E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0D2907199100B3247E /* SceneDelegate.swift */; };
 		CEBBAC102907199100B3247E /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC0F2907199100B3247E /* ContestViewController.swift */; };
 		CEBBAC152907199100B3247E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBBAC142907199100B3247E /* Assets.xcassets */; };
 		CEBBAC182907199100B3247E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBBAC162907199100B3247E /* LaunchScreen.storyboard */; };
+		CEBBAC3229072DC600B3247E /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC2F29072DC600B3247E /* EndpointType.swift */; };
+		CEBBAC3329072DC600B3247E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC3129072DC600B3247E /* HTTPMethod.swift */; };
+		CEBBAC3529072DD500B3247E /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBAC3429072DD500B3247E /* HTTPTask.swift */; };
+		CEE693C32908824B00AA8B08 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE693C22908824B00AA8B08 /* NetworkError.swift */; };
+		CEE693C5290882AD00AA8B08 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE693C4290882AD00AA8B08 /* NetworkRouter.swift */; };
+		CEE693C7290885F100AA8B08 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE693C6290885F100AA8B08 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEB5A68E291311DF00950F2E /* CodeforcesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeforcesEndpoint.swift; sourceTree = "<group>"; };
 		CEBBAC082907199100B3247E /* cf-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cf-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBBAC0B2907199100B3247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBBAC0D2907199100B3247E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		CEBBAC142907199100B3247E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBBAC172907199100B3247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEBBAC192907199100B3247E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBBAC2F29072DC600B3247E /* EndpointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		CEBBAC3129072DC600B3247E /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CEBBAC3429072DD500B3247E /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		CEE693C22908824B00AA8B08 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CEE693C4290882AD00AA8B08 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		CEE693C6290885F100AA8B08 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEB5A68D29130EA500950F2E /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5A68E291311DF00950F2E /* CodeforcesEndpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
 		CEBBABFF2907199100B3247E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +76,7 @@
 		CEBBAC0A2907199100B3247E /* cf-reminder */ = {
 			isa = PBXGroup;
 			children = (
+				CEBBAC2D29072DC600B3247E /* Networking */,
 				CEBBAC20290719A500B3247E /* ViewControllers */,
 				CEBBAC1F2907199700B3247E /* App */,
 				CEBBAC142907199100B3247E /* Assets.xcassets */,
@@ -78,6 +101,44 @@
 				CEBBAC0F2907199100B3247E /* ContestViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEBBAC2D29072DC600B3247E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5A68D29130EA500950F2E /* Endpoint */,
+				CEE693C129087F6C00AA8B08 /* Encoding */,
+				CEBBAC2E29072DC600B3247E /* Manager */,
+				CEBBAC3029072DC600B3247E /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CEBBAC2E29072DC600B3247E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBAC2F29072DC600B3247E /* EndpointType.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CEBBAC3029072DC600B3247E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBAC3129072DC600B3247E /* HTTPMethod.swift */,
+				CEBBAC3429072DD500B3247E /* HTTPTask.swift */,
+				CEE693C4290882AD00AA8B08 /* NetworkRouter.swift */,
+				CEE693C6290885F100AA8B08 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEE693C129087F6C00AA8B08 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				CEE693C22908824B00AA8B08 /* NetworkError.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBBAC3529072DD500B3247E /* HTTPTask.swift in Sources */,
+				CEB5A68F291311DF00950F2E /* CodeforcesEndpoint.swift in Sources */,
+				CEE693C5290882AD00AA8B08 /* NetworkRouter.swift in Sources */,
+				CEE693C32908824B00AA8B08 /* NetworkError.swift in Sources */,
+				CEBBAC3229072DC600B3247E /* EndpointType.swift in Sources */,
+				CEE693C7290885F100AA8B08 /* Router.swift in Sources */,
 				CEBBAC102907199100B3247E /* ContestViewController.swift in Sources */,
 				CEBBAC0C2907199100B3247E /* AppDelegate.swift in Sources */,
+				CEBBAC3329072DC600B3247E /* HTTPMethod.swift in Sources */,
 				CEBBAC0E2907199100B3247E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
